@@ -1,0 +1,2 @@
+# R5T.Solitude.Base
+An IVisualStudioSolutionFileOperator service definition base library for the Solitude project.
