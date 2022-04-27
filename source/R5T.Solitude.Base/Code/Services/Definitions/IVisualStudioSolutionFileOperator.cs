@@ -1,13 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
+using System;
+using System.Collections.Generic;using R5T.T0064;
 
 
 namespace R5T.Solitude
-{
+{[ServiceDefinitionMarker]
     /// <summary>
     /// A (file-based) Visual Studio solution file operator.
     /// </summary>
-    public interface IVisualStudioSolutionFileOperator
+    public interface IVisualStudioSolutionFileOperator:IServiceDefinition
     {
         void CreateNewSolutionFile(string solutionFilePath);
 

@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Solitude.Base.Construct
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Solitude.Base", "R5T.Solitude.Base\R5T.Solitude.Base.csproj", "{9863BF5A-7696-45B5-988B-5D465DD5EE61}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Dependencies", "_Dependencies", "{1F353A4D-CCAB-4CC0-852E-2C74AA21802E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.T0064", "..\..\R5T.T0064\source\R5T.T0064\R5T.T0064.csproj", "{A936A055-B23E-42F3-A8B8-929F15460F87}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -44,5 +48,20 @@ Global
 		{9863BF5A-7696-45B5-988B-5D465DD5EE61}.Release|x64.Build.0 = Release|Any CPU
 		{9863BF5A-7696-45B5-988B-5D465DD5EE61}.Release|x86.ActiveCfg = Release|Any CPU
 		{9863BF5A-7696-45B5-988B-5D465DD5EE61}.Release|x86.Build.0 = Release|Any CPU
+		{A936A055-B23E-42F3-A8B8-929F15460F87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A936A055-B23E-42F3-A8B8-929F15460F87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A936A055-B23E-42F3-A8B8-929F15460F87}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{A936A055-B23E-42F3-A8B8-929F15460F87}.Debug|x64.Build.0 = Debug|Any CPU
+		{A936A055-B23E-42F3-A8B8-929F15460F87}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{A936A055-B23E-42F3-A8B8-929F15460F87}.Debug|x86.Build.0 = Debug|Any CPU
+		{A936A055-B23E-42F3-A8B8-929F15460F87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A936A055-B23E-42F3-A8B8-929F15460F87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A936A055-B23E-42F3-A8B8-929F15460F87}.Release|x64.ActiveCfg = Release|Any CPU
+		{A936A055-B23E-42F3-A8B8-929F15460F87}.Release|x64.Build.0 = Release|Any CPU
+		{A936A055-B23E-42F3-A8B8-929F15460F87}.Release|x86.ActiveCfg = Release|Any CPU
+		{A936A055-B23E-42F3-A8B8-929F15460F87}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A936A055-B23E-42F3-A8B8-929F15460F87} = {1F353A4D-CCAB-4CC0-852E-2C74AA21802E}
 	EndGlobalSection
 EndGlobal
